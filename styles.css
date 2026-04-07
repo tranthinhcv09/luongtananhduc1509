@@ -202,3 +202,45 @@ footer {
     padding: 15px 20px;
   }
 }
+
+/* Kiểu dáng cho khu hình chữ nhật */
+.contact-card {
+    background-color: #000000; /* Màu nền trắng */
+    border: 1px solid #ddd;    /* Đường viền mỏng */
+    border-radius: 8px;        /* Bo góc nhẹ cho hiện đại */
+    padding: 30px;             /* Khoảng cách từ nội dung đến viền hộp */
+    max-width: 500px;          /* Chiều rộng tối đa của hình chữ nhật */
+    margin: 0 auto;            /* Căn giữa hình chữ nhật ra giữa trang */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ cho sang trọng */
+    text-align: left;          /* Căn lề chữ bên trong bên trái */
+}
+
+/* Tùy chỉnh các dòng chữ bên trong */
+.contact-info h3 {
+    margin-top: 0;
+    color: #d80000;
+    border-bottom: 2px solid #007bff; /* Gạch chân tiêu đề cho đẹp */
+    padding-bottom: 10px;
+}
+
+.contact-info p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+/* Tùy chỉnh các nút mạng xã hội */
+.socials a {
+    display: inline-block;
+    margin-right: 15px;
+    padding: 8px 15px;
+    background-color: #ff0000;
+    color: rgb(217, 255, 1);
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.socials a:hover {
+    background-color: #0056b3;
+}
